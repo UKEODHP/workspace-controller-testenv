@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: default
+    namespace: workspaces
     server: https://kubernetes.default.svc
   project: default
   source:
@@ -17,3 +17,5 @@ spec:
       allowEmpty: false
       prune: true
       selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
