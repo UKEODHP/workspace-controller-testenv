@@ -1,3 +1,9 @@
+# Repository Archived - no longer used, remains as an example in future
+## Workspace services now provided by:
+- https://github.com/EO-DataHub/eodhp-workspace-controller
+- https://github.com/EO-DataHub/eodhp-workspace-services
+- https://github.com/EO-DataHub/eodhp-workspace-manager
+
 # Workspace Controller Test Environment
 
 ## Installation
